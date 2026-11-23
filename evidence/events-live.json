@@ -1,0 +1,109 @@
+[
+  {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795411236,
+    "chain_id": 61999,
+    "contract": "0x3911f4e861B48C803829b45f59c7da144580C4BD",
+    "data": {
+      "bundle_hash": "6081c2beecde91a9d3314edd38e48be32a77cbc64f7d181957cf3d04a00c4c73",
+      "evidence_bytes": 695,
+      "evidence_sha256": "ef7f9ef8fc88223d08144e40eca496fcda9bd8dcfa2402c9a065cae4ec04a2b9"
+    },
+    "event_hash": "b7cfb61d59a5cf5334206b1e1475ce324063b6a6e578eca31009c60750885069",
+    "kind": "LOCK",
+    "permit_id": "DEMO-HW-001",
+    "policy_hash": "54923a6cc37feb6ae3d76eccbd8c924da391fb351c4a0be92f769e25078435f2",
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "sequence": 1,
+    "version": 1
+  },
+  {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795411285,
+    "chain_id": 61999,
+    "contract": "0x3911f4e861B48C803829b45f59c7da144580C4BD",
+    "data": {
+      "account": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+      "approved": true,
+      "at": 1795411285,
+      "bundle_hash": "6081c2beecde91a9d3314edd38e48be32a77cbc64f7d181957cf3d04a00c4c73",
+      "order": 0,
+      "role": "Permit issuer"
+    },
+    "event_hash": "62dfa538af7c9b10f36ef9e30db757b0fa0171b3ef2ab0c20402672b8a3dc513",
+    "kind": "ATTEST",
+    "permit_id": "DEMO-HW-001",
+    "policy_hash": "54923a6cc37feb6ae3d76eccbd8c924da391fb351c4a0be92f769e25078435f2",
+    "previous_hash": "b7cfb61d59a5cf5334206b1e1475ce324063b6a6e578eca31009c60750885069",
+    "sequence": 2,
+    "version": 1
+  },
+  {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795411351,
+    "chain_id": 61999,
+    "contract": "0x3911f4e861B48C803829b45f59c7da144580C4BD",
+    "data": {
+      "approvals": [
+        {
+          "account": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+          "approved": true,
+          "at": 1795411285,
+          "bundle_hash": "6081c2beecde91a9d3314edd38e48be32a77cbc64f7d181957cf3d04a00c4c73",
+          "order": 0,
+          "role": "Permit issuer"
+        }
+      ],
+      "bundle_hash": "6081c2beecde91a9d3314edd38e48be32a77cbc64f7d181957cf3d04a00c4c73",
+      "result": {
+        "conditions": [],
+        "outcome": "AUTHORIZED",
+        "unknown": [],
+        "violations": []
+      },
+      "review": {
+        "briefing": {
+          "quote": "Optional supplementary briefing attendance recorded.",
+          "status": "SUPPORTED"
+        },
+        "equipment": {
+          "quote": "Welder EQ-04 pre-use inspection passed with no unresolved defects.",
+          "status": "SUPPORTED"
+        },
+        "isolation": {
+          "quote": "Energy isolation completed and fire watch assigned under HW-04.",
+          "status": "SUPPORTED"
+        },
+        "welder": {
+          "quote": "Worker DEMO-01 has current hot-work training.",
+          "status": "SUPPORTED"
+        }
+      },
+      "work_end": 1795511882,
+      "work_start": 1795497482
+    },
+    "event_hash": "f622a5b3f0e80ce2e1b58afcb95618af5face3e994430925f4942c58e91bd48e",
+    "kind": "ASSESS",
+    "permit_id": "DEMO-HW-001",
+    "policy_hash": "54923a6cc37feb6ae3d76eccbd8c924da391fb351c4a0be92f769e25078435f2",
+    "previous_hash": "62dfa538af7c9b10f36ef9e30db757b0fa0171b3ef2ab0c20402672b8a3dc513",
+    "sequence": 3,
+    "version": 1
+  },
+  {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795411450,
+    "chain_id": 61999,
+    "contract": "0x3911f4e861B48C803829b45f59c7da144580C4BD",
+    "data": {
+      "reason": "Synthetic lifecycle demonstration complete. Permanent stop; no real work is authorized."
+    },
+    "event_hash": "246650a184b1eca50377b99689da2bbc9a4756dc0e617f3ec7dda3d1cb8d6140",
+    "kind": "STOP",
+    "permit_id": "DEMO-HW-001",
+    "policy_hash": "54923a6cc37feb6ae3d76eccbd8c924da391fb351c4a0be92f769e25078435f2",
+    "previous_hash": "f622a5b3f0e80ce2e1b58afcb95618af5face3e994430925f4942c58e91bd48e",
+    "sequence": 4,
+    "version": 1
+  }
+]

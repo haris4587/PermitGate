@@ -1,0 +1,91 @@
+{
+  "source_matches": true,
+  "source_sha256": "6cd359bd2e337ac471bf1d0022737335e2f5be8f5e8b55b3059437a7cd8eaff8",
+  "state": {
+    "events": 4,
+    "head": "246650a184b1eca50377b99689da2bbc9a4756dc0e617f3ec7dda3d1cb8d6140",
+    "policy_hash": "54923a6cc37feb6ae3d76eccbd8c924da391fb351c4a0be92f769e25078435f2"
+  },
+  "transactions": [
+    {
+      "action": "deploy",
+      "hash": "0x0dacbf6bd1f55d104f31b7159fd6a35bea1bc1a903bbeb9d298bb550dd3459d1",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE",
+      "leader_only": false,
+      "votes": {
+        "0x23A15A452F19D1B616276fedC5B8B51d69082959": "agree",
+        "0x5e880d85a70De78dDEf86236d57c42e73F560615": "idle",
+        "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "agree",
+        "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "idle",
+        "0xBE58b43DF1d991e054F743Cc5571dD7029F3B888": "agree"
+      }
+    },
+    {
+      "action": "lock_permit",
+      "hash": "0xfbd1278beb0c4d631b859fe662ab5af05c6fd0291f7ed9dfa264d2866ec5bdad",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE",
+      "leader_only": false,
+      "votes": {
+        "0x4eeaD269a60bB89c98a23c1BCd0bd101CafD90E0": "agree",
+        "0x534af64FFB6796Bc69aBf4C26c50788F1fFAfe56": "idle",
+        "0x6fe9DE3d0adc76D6416A13CD8107aaE49A3CF98F": "idle",
+        "0x813890bC5bEDEB4F5437570962379F04738F18Cb": "agree",
+        "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "agree"
+      }
+    },
+    {
+      "action": "attest",
+      "hash": "0x5767e4750e8a4a6c466c2876ebbe1d5c45ea8854839238aa2f7e220e3f71acda",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE",
+      "leader_only": false,
+      "votes": {
+        "0x1B490819e040562a5fb40CD64B1c70D4419c38d1": "idle",
+        "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
+        "0x534af64FFB6796Bc69aBf4C26c50788F1fFAfe56": "agree",
+        "0xBE58b43DF1d991e054F743Cc5571dD7029F3B888": "idle",
+        "0xee46B9Dc4c860149B1d140840284e5374854e746": "agree"
+      }
+    },
+    {
+      "action": "evaluate",
+      "hash": "0x4d8192b17f19e54c4b4f2f76df61423b4eb93ea21e8498afd7c0905f1a7716f6",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE",
+      "leader_only": false,
+      "votes": {
+        "0x19a02f95418A6c76091CDA37C4fc542CA82805c9": "idle",
+        "0x23A15A452F19D1B616276fedC5B8B51d69082959": "agree",
+        "0x534af64FFB6796Bc69aBf4C26c50788F1fFAfe56": "agree",
+        "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "agree",
+        "0x6DC61b906F74F44612c5545b0b79486133B3556d": "idle"
+      }
+    },
+    {
+      "action": "stop_work",
+      "hash": "0xd330acd13cc53354152c5ddcb6775e37f7684018be593a7a008eb9c7ae032857",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE",
+      "leader_only": false,
+      "votes": {
+        "0x22Eda431B7fBC1216baE3b077a78c973a8719c58": "agree",
+        "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "idle",
+        "0x5744305308D62592B7De585e1999c4Ea51E03C29": "idle",
+        "0x6fe9DE3d0adc76D6416A13CD8107aaE49A3CF98F": "agree",
+        "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "agree"
+      }
+    }
+  ],
+  "assessment_outcome": "AUTHORIZED",
+  "effective_status": {
+    "checked_at": 1795411531,
+    "may_proceed": false,
+    "outcome": "VIOLATION",
+    "permit_id": "DEMO-HW-001",
+    "reason": "stopped",
+    "work_end": 1795511882,
+    "work_start": 1795497482
+  }
+}

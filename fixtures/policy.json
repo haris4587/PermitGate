@@ -1,0 +1,45 @@
+{
+  "site": "SYNTHETIC Plant A / Bay 4",
+  "task_type": "Demonstration hot work",
+  "procedure": "HW-04: isolate energy, inspect equipment, verify welder qualification and assign a fire watch before welding.",
+  "operator": "0x1111111111111111111111111111111111111111",
+  "approvals": [
+    {
+      "role": "Permit issuer",
+      "account": "0x1111111111111111111111111111111111111111"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "isolation",
+      "kind": "procedure",
+      "subject": "Bay 4 isolation",
+      "rule": "Energy isolation completed and fire watch assigned under HW-04.",
+      "critical": true
+    },
+    {
+      "id": "welder",
+      "kind": "qualification",
+      "subject": "Worker DEMO-01",
+      "rule": "Current hot-work training for DEMO-01.",
+      "critical": true
+    },
+    {
+      "id": "equipment",
+      "kind": "equipment",
+      "subject": "Welder EQ-04",
+      "rule": "Pre-use inspection of EQ-04 passed with no unresolved defects.",
+      "critical": true
+    },
+    {
+      "id": "briefing",
+      "kind": "procedure",
+      "subject": "Briefing register",
+      "rule": "Optional supplementary briefing attendance recorded.",
+      "critical": false
+    }
+  ],
+  "max_duration_seconds": 28800,
+  "max_document_age_seconds": 2592000,
+  "separate_duties": false
+}

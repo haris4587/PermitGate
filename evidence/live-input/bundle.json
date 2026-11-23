@@ -1,0 +1,32 @@
+{
+  "permit_id": "DEMO-HW-001",
+  "site": "SYNTHETIC Plant A / Bay 4",
+  "task_type": "Demonstration hot work",
+  "work_start": 1795497482,
+  "work_end": 1795511882,
+  "evidence": "SYNTHETIC DEMONSTRATION ONLY. No real work is authorized.\nPermit DEMO-HW-001; site SYNTHETIC Plant A / Bay 4; task Demonstration hot work.\nWork interval Unix seconds: start 1795497482, end 1795511882. Procedure HW-04.\nRecord isolation: issued_at 1795407482, expires_at 1795583882.\nRecord welder: issued_at 1795407482, expires_at 1795583882.\nRecord equipment: issued_at 1795407482, expires_at 1795583882.\nRecord briefing: issued_at 1795407482, expires_at 1795583882.\nEnergy isolation completed and fire watch assigned under HW-04.\nWorker DEMO-01 has current hot-work training.\nWelder EQ-04 pre-use inspection passed with no unresolved defects.\nOptional supplementary briefing attendance recorded.",
+  "evidence_sha256": "ef7f9ef8fc88223d08144e40eca496fcda9bd8dcfa2402c9a065cae4ec04a2b9",
+  "evidence_bytes": 695,
+  "records": [
+    {
+      "requirement_id": "isolation",
+      "issued_at": 1795407482,
+      "expires_at": 1795583882
+    },
+    {
+      "requirement_id": "welder",
+      "issued_at": 1795407482,
+      "expires_at": 1795583882
+    },
+    {
+      "requirement_id": "equipment",
+      "issued_at": 1795407482,
+      "expires_at": 1795583882
+    },
+    {
+      "requirement_id": "briefing",
+      "issued_at": 1795407482,
+      "expires_at": 1795583882
+    }
+  ]
+}

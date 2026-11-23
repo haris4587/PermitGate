@@ -1,0 +1,18 @@
+{
+  "isolation": {
+    "status": "SUPPORTED",
+    "quote": "Energy isolation completed and fire watch assigned under HW-04."
+  },
+  "welder": {
+    "status": "SUPPORTED",
+    "quote": "Worker DEMO-01 has current hot-work training."
+  },
+  "equipment": {
+    "status": "SUPPORTED",
+    "quote": "Welder EQ-04 pre-use inspection passed with no unresolved defects."
+  },
+  "briefing": {
+    "status": "SUPPORTED",
+    "quote": "Optional supplementary briefing attendance recorded."
+  }
+}

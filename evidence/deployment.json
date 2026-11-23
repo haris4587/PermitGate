@@ -1,0 +1,32 @@
+{
+  "status": "deployed",
+  "network": "studionet",
+  "chain_id": 61999,
+  "address": "0x3911f4e861B48C803829b45f59c7da144580C4BD",
+  "explorer": "https://explorer-studio.genlayer.com/address/0x3911f4e861B48C803829b45f59c7da144580C4BD",
+  "account": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+  "synthetic_demo": true,
+  "transactions": [
+    {
+      "action": "deploy",
+      "hash": "0x0dacbf6bd1f55d104f31b7159fd6a35bea1bc1a903bbeb9d298bb550dd3459d1"
+    },
+    {
+      "action": "lock_permit",
+      "hash": "0xfbd1278beb0c4d631b859fe662ab5af05c6fd0291f7ed9dfa264d2866ec5bdad"
+    },
+    {
+      "action": "attest",
+      "hash": "0x5767e4750e8a4a6c466c2876ebbe1d5c45ea8854839238aa2f7e220e3f71acda"
+    },
+    {
+      "action": "evaluate",
+      "hash": "0x4d8192b17f19e54c4b4f2f76df61423b4eb93ea21e8498afd7c0905f1a7716f6"
+    },
+    {
+      "action": "stop_work",
+      "hash": "0xd330acd13cc53354152c5ddcb6775e37f7684018be593a7a008eb9c7ae032857"
+    }
+  ],
+  "permit_id": "DEMO-HW-001"
+}
